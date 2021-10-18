@@ -1,5 +1,5 @@
-deepin-voice-note (1.0) unstable; urgency=medium
+deepin-voice-note (5.9.7-1ubuntu1) impish; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * New upstream release for impish.
 
- -- Deepin Packages Builder <packages@deepin.com>  Wed, 11 Oct 2017 17:38:35 +0800
+ -- Ananta Mishra <mishraananta2017@gmail.com>  Mon, 18 Oct 2021 14:24:32 +0545

@@ -1,9 +1,10 @@
 Source: deepin-voice-note
 Section: devel
 Priority: optional
-Maintainer: deepin <packages@deepin.com>
+Maintainer: Ananta Mishra <mishraananta2017@gmail.com>
+XSBC-Original-Maintainer: deepin <packages@deepin.com>
 Build-Depends:
- debhelper (>= 11),
+ debhelper-compat (= 13),
  cmake,
  qttools5-dev-tools,
  libutf8proc-dev,
@@ -20,9 +21,9 @@ Build-Depends:
  libgstreamer1.0-dev,
  libvlc-dev,
  libvlccore-dev,
- libgtest-dev
-Standards-Version: 4.1.3
-Homepage: <insert the upstream URL, if relevant>
+ libgtest-dev,
+Standards-Version: 4.5.1
+Homepage: https://github.com/linuxdeepin/deepin-voice-note
 #Vcs-Browser: https://salsa.debian.org/debian/voice-note
 #Vcs-Git: https://salsa.debian.org/debian/voice-note.git
 

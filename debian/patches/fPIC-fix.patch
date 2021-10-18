@@ -1,0 +1,36 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ deepin-voice-note (5.9.7-1ubuntu1) impish; urgency=medium
+ .
+   * New upstream release for impish.
+Author: Ananta Mishra <mishraananta2017@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2021-10-18
+
+--- deepin-voice-note-5.9.7.orig/CMakeLists.txt
++++ deepin-voice-note-5.9.7/CMakeLists.txt
+@@ -50,7 +50,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
+ set(CMAKE_AUTOMOC ON)
+ set(CMAKE_AUTORCC ON)
+ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+-set(CMAKE_CXX_FLAGS "-Wl,--as-need -fPIE")
++set(CMAKE_CXX_FLAGS "-Wl,--as-need -fPIC")
+ set(CMAKE_EXE_LINKER_FLAGS "-pie")
+ set(CMAKE_CXX_FLAGS "-g")
+ 
